@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2B2922;
+}
+
+[aria-label*="navbar"]{
+    height: 22vh;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 6vh;
+    width: 8vw;
+    position: relative;
+    margin: 16px 0 0 36px;
+    left: 28px;
+    top: 3px;
+}
+
+ul li:first-of-type{
+    color: #C8C7C4;
+    font-weight: bold;
+}
+
+.list{
+    display: inline-flex;
+    position: relative;
+    list-style: none;
+    color: #A6A49C;
+    left: 36vw;
+    bottom: 5.5vh;
+    font-family: 'Red Rose', cursive;
+}
+
+.list-item{
+    padding: 0 28px;
+    font-size: 19px;
+    font-weight: 50;
+}
+
+.button-small{
+    background-color:#2B2922;
+    font-weight: bolder;
+    position: relative;
+    left: 78.5vw;
+    bottom: 10vh;
+    height: 7.5vh;
+    width: 12vw;
+    color: #887A32;
+    font-family: 'Red Rose', cursive;
+    border-color: #887A32;
+    border-radius: 0.8vw;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.hero-heading{
+    color: #F1F0EF;
+    width: 40%;
+    height: 31vh;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 1000;
+    font-family: 'Red Rose', cursive;
+    font-size: 69px;
+    left: 10vw;
+    position: absolute;
+    word-spacing: -6px;
+    line-height: 12vh;
+}
+
+.hero-content{
+    width: 36vw;
+    height: 30vh;
+    position: relative;
+    left: 50vw;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: smaller;
+    bottom: 2.5vh;
+
+}
+
+.hero-content p{
+    color: #B0AFAB;
+    font-family: 'Red Rose', cursive;
+    word-spacing: 7px;
+    font-size: 22.6px;
+    position: relative;
+    left: 36px;
+}
+
+.bottom-image{
+    height: calc(100vh-);
+}
+
+/* .bottom-image img{
+    height: 43vh;
+    width: 100vw;
+} */
+
+.bottom-image img{
+    height: 43vh;
+    width: 100vw;
+    background: url(../assets/scroll.png) center;
+}
+
